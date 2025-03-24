@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18  # Use the Node.js version your app requires
+      nodejs: 22  # Use the Node.js version your app requires
     commands:
       - echo Installing dependencies...
       - npm install
